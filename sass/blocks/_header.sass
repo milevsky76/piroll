@@ -1,0 +1,35 @@
+.main-header
+    display: flex
+.main-navigation
+    flex-shrink: 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+    min-height: 100px
+.logo
+    flex-shrink: 0
+    margin-right: 15px
+    &__img
+        display: block
+        width: 31px
+        height: 25px
+.site-navigation
+    display: flex
+    flex-wrap: wrap
+    max-width: 700px
+    margin: 0
+    padding: 0
+    list-style: none
+    &__item
+        &:not(:last-child)
+            margin-right: 30px
+    &__link
+        +montserrat
+        font-size: 12px
+        line-height: 24px
+        color: #191919
+        text-transform: uppercase
+        &_active
+            color: $text-color2
+        &:hover
+            color: $text-color2
