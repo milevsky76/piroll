@@ -199,4 +199,18 @@ body {
   width: 1px !important;
   overflow: hidden;
 }
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 12px;
+  font-weight: noraml;
+  color: #787878;
+  background-color: #FFFFFF;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /*# sourceMappingURL=style.css.map */
