@@ -279,4 +279,59 @@ body {
 .site-navigation__link:hover {
   color: #10c9c3;
 }
+
+.banner {
+  height: 670px;
+  margin-top: -100px;
+  background-color: #E9E9E9;
+}
+
+.banner__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.banner__wrap {
+  width: 585px;
+}
+
+.banner__title {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #1d1d1d;
+}
+
+.banner__text {
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.button {
+  padding: 20px 45px;
+  border: none;
+  background-color: #10c9c3;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #1d1d1d;
+}
 /*# sourceMappingURL=style.css.map */
