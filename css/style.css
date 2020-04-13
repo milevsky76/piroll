@@ -439,4 +439,77 @@ body {
 .skills__line_90 {
   width: 90%;
 }
+
+.statistics {
+  background-color: #10c9c3;
+}
+
+.statistics__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.statistics__list {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1170px;
+  min-height: 240px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.statistics__item {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 270px;
+  padding: 25px 0;
+}
+
+.statistics__svg {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+}
+
+.statistics__wrap-text {
+  margin: 0;
+  margin-left: 25px;
+  padding: 0;
+}
+
+.statistics__numbers {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.statistics__text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=style.css.map */

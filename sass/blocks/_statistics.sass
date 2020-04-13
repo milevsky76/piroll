@@ -1,0 +1,40 @@
+.statistics
+    background-color: $text-color2
+    &__flex
+        display: flex
+    &__list
+        flex-shrink: 0
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+        width: 1170px
+        min-height: 240px
+        margin: 0
+        padding: 0
+        list-style: none
+    &__item
+        flex-shrink: 0
+        display: flex
+        width: 270px
+        padding: 25px 0
+    &__svg
+        align-self: center
+        width: 40px
+        height: 40px
+        fill: #ffffff
+    &__wrap-text
+        margin: 0
+        margin-left: 25px
+        padding: 0
+    &__numbers
+        +montserratM
+        font-size: 18px
+        line-height: 30px
+        color: #ffffff
+    &__text
+        +montserratM
+        font-size: 12px
+        line-height: 20px
+        color: #ffffff
+        text-transform: uppercase
