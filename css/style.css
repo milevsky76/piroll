@@ -654,4 +654,69 @@ body {
   background-color: #10c9c3;
   border-radius: 50%;
 }
+
+.services {
+  min-height: 355px;
+  padding: 40px 0 90px 0;
+  background-color: #F5F5F5;
+}
+
+.services__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.services__list {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services__item {
+  width: 240px;
+  margin-top: 50px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.services__svg {
+  margin-bottom: 20px;
+  fill: #656565;
+}
+
+.services__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
+  color: #191919;
+  text-transform: uppercase;
+}
+
+.services__text {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
 /*# sourceMappingURL=style.css.map */
