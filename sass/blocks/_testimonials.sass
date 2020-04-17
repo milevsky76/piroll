@@ -1,0 +1,46 @@
+.testimonials
+    position: relative
+    padding-top: 175px
+    padding-bottom: 90px
+    height: 235px
+    background-color: #10C9C3
+    &__blockquote
+        margin: 0
+    &__paginations
+        position: absolute
+        left: 50%
+        bottom: 60px
+        transform: translateX(-50%)
+.quote
+    padding: 0
+    text-align: center
+    &__text
+        display: block
+        margin-bottom: 20px
+        +montserratM
+        font-size: 24px
+        line-height: 36px
+        color: #ffffff
+    &__author
+        display: block
+        +montserrat
+        font-size: 12px
+        line-height: 36px
+        font-style: normal
+        color: #ffffff
+        text-transform: uppercase
+        letter-spacing: 2px
+.pagination
+    display: flex
+    justify-content: space-between
+    width: 40px
+    &__input
+        &:checked + .pagination__label
+            transform: scale(1.65)
+            background-color: #ffffff
+    &__label
+        display: block
+        width: 6px
+        height: 6px
+        background-color: #B0E8E6
+        border-radius: 50%
