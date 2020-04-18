@@ -790,4 +790,38 @@ body {
   background-color: #B0E8E6;
   border-radius: 50%;
 }
+
+.clients {
+  padding: 64px 0;
+}
+
+.clients__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 72px;
+  margin: 0;
+  margin-bottom: -64px;
+  padding: 0;
+  list-style: none;
+}
+
+.clients__item {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 170px;
+  margin-bottom: 64px;
+}
+
+.clients__img {
+  display: block;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
