@@ -927,4 +927,84 @@ body {
 .needproj-form__button {
   padding: 20px 35px;
 }
+
+.main-footer {
+  min-height: 104px;
+  padding: 90px 0;
+  background-color: #141414;
+}
+
+.main-footer__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-footer__copy {
+  width: 270px;
+  margin-right: 200px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #bcbcbc;
+}
+
+.main-footer__title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.main-footer__info, .main-footer__nav, .main-footer__content-info, .main-footer__social {
+  margin: 0;
+}
+
+.main-footer__info {
+  margin-right: 100px;
+}
+
+.main-footer__nav {
+  margin-right: 50px;
+}
+
+.main-footer__content-info {
+  margin-right: auto;
+}
+
+.info {
+  width: 200px;
+  padding: 0;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.info__mail, .info__number {
+  color: #bcbcbc;
+}
+
+.info__mail:hover, .info__mail:focus, .info__number:hover, .info__number:focus {
+  text-decoration: underline;
+}
+
+.footer-nav, .content-info, .social {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav__link, .content-info__link, .social__link {
+  font-size: 15px;
+  line-height: 24px;
+  color: #bcbcbc;
+}
+
+.footer-nav__link:hover, .footer-nav__link:focus, .content-info__link:hover, .content-info__link:focus, .social__link:hover, .social__link:focus {
+  text-decoration: underline;
+}
+
+.social {
+  width: 100px;
+}
 /*# sourceMappingURL=style.css.map */
