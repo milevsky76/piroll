@@ -315,7 +315,7 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   color: #10c9c3;
 }
 
-.site-navigation__link:hover {
+.site-navigation__link:hover, .site-navigation__link:focus {
   color: #10c9c3;
 }
 
@@ -587,7 +587,7 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   transition: opacity 0.3s;
 }
 
-.work__link:hover::before {
+.work__link:hover::before, .work__link:focus::before {
   opacity: 1;
 }
 
@@ -600,7 +600,7 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   background-color: #F5F5F5;
 }
 
-.work__button:hover {
+.work__button:hover, .work__button:focus {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
@@ -643,11 +643,11 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   transition: background-color 0.3s;
 }
 
-.video__link:hover {
+.video__link:hover, .video__link:focus {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.video__link:hover .video__play {
+.video__link:hover .video__play, .video__link:focus .video__play {
   -webkit-transition: -webkit-box-shadow 0.3s;
   transition: -webkit-box-shadow 0.3s;
   transition: box-shadow 0.3s;
@@ -811,6 +811,7 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   height: 6px;
   background-color: #B0E8E6;
   border-radius: 50%;
+  cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
