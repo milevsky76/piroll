@@ -225,6 +225,8 @@ body {
   cursor: pointer;
   border: none;
   background-color: #10c9c3;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .button:hover, .button:focus {
@@ -241,6 +243,8 @@ input[type=text], input[type=email], input[type=password], textarea {
   line-height: 24px;
   color: #787878;
   border: 1px solid transparent;
+  -webkit-transition: border 0.3s;
+  transition: border 0.3s;
 }
 
 input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[type=email]:focus, input[type=password]:hover, input[type=password]:focus, textarea:hover, textarea:focus {
@@ -303,6 +307,8 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   line-height: 24px;
   color: #191919;
   text-transform: uppercase;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .site-navigation__link_active {
@@ -577,8 +583,8 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   background-size: 48px 48px;
   background-color: rgba(0, 0, 0, 0.85);
   opacity: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
 .work__link:hover::before {
@@ -633,8 +639,8 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   display: block;
   width: 100%;
   height: 100%;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .video__link:hover {
@@ -642,6 +648,10 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
 }
 
 .video__link:hover .video__play {
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
@@ -801,6 +811,8 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   height: 6px;
   background-color: #B0E8E6;
   border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .clients {

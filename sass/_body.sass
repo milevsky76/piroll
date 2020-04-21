@@ -1,6 +1,7 @@
 $text-color: #787878
 $text-color2: #10c9c3
 $bg-color: #FFFFFF
+$time-animation: 0.3s
     
 body
     +nunito
@@ -24,6 +25,7 @@ body
     cursor: pointer
     border: none
     background-color: $text-color2
+    transition: background-color $time-animation
     &:hover, &:focus
         background-color: #1d1d1d
 
@@ -36,5 +38,6 @@ input[type=text], input[type=email], input[type=password], textarea
     line-height: 24px
     color: $text-color
     border: 1px solid transparent
+    transition: border $time-animation
     &:hover, &:focus
         border: 1px solid $text-color
