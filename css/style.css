@@ -1000,4 +1000,8 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
 .social {
   width: 100px;
 }
+
+.home .main-header {
+  background-color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
