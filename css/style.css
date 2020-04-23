@@ -1034,4 +1034,21 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   font-size: 18px;
   line-height: 27px;
 }
+
+.home .work__item {
+  width: 25%;
+  height: 300px;
+}
+
+.home .work__item:nth-child(9), .home .work__item:nth-child(11) {
+  background-color: #838383;
+}
+
+.home .work__item:nth-child(10), .home .work__item:nth-child(12) {
+  background-color: #DDDDDD;
+}
+
+.home .work__link::before {
+  background-color: rgba(16, 201, 195, 0.85);
+}
 /*# sourceMappingURL=style.css.map */
