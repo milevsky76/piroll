@@ -1051,4 +1051,8 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
 .home .work__link::before {
   background-color: rgba(16, 201, 195, 0.85);
 }
+
+.about .main-header {
+  background-color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
