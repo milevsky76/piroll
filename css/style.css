@@ -1085,4 +1085,42 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   line-height: 28px;
   color: #ffffff;
 }
+
+.aboutme {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e1e1e1), color-stop(50%, whitesmoke));
+  background: linear-gradient(90deg, #e1e1e1 50%, whitesmoke 50%);
+}
+
+.aboutme__wrap {
+  width: 460px;
+  min-height: 300px;
+  margin-left: auto;
+  padding: 135px 40px 135px 85px;
+  background-color: #F5F5F5;
+}
+
+.aboutme__title {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #171717;
+}
+
+.aboutme__text {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.aboutme__signature {
+  display: block;
+  width: 223px;
+  height: 57px;
+  margin-top: 30px;
+}
 /*# sourceMappingURL=style.css.map */
