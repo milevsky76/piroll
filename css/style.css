@@ -1154,4 +1154,8 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   display: inline-block;
   padding: 20px 53px;
 }
+
+.projects .main-header {
+  background-color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
