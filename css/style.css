@@ -1305,4 +1305,8 @@ input[type=text]:hover, input[type=text]:focus, input[type=email]:hover, input[t
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+
+.contact .main-header {
+  background-color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
